@@ -1,0 +1,36 @@
+@media screen and ( min-width: 1024px) {    
+body{
+    background-color: rgb(102, 42, 42);
+    display:flex;
+}
+.large{
+    font-size: large; 
+     
+}
+}
+@media screen and ( max-width: 1024px) and (min-width: 480px) {
+    body{
+    background-color: rgb(71, 219, 224);
+    display:flex;
+    flex-wrap: wrap;
+ }
+.medium{
+    font-size: medium;
+    width: 33%;
+    
+}
+.small{
+    width: 66%;
+}
+}
+@media screen and ( max-width: 480px) {
+body{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    }
+.small{
+    font-size: small;
+    
+    }
+}
